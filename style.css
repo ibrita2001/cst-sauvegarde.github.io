@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ..........................NAVBAR..............................*/
+header nav {
+    overflow: hidden;
+    background-color: blanchedalmond;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li{
+    float: right;
+    font-size: 1.2rem;
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left; 
+}
+/*........................IMAGE PRINCIPALE..................... */
+#imagePrincipale{
+    padding-top: 60px;
+    background: url(images/2022_10_12_11_07_IMG_1529.JPG) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 500px;
+    text-shadow: 1px 3px 2px rgb(240, 102, 102);
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(240, 57, 11);
+    font-size: 6em;
+    margin-top: 20px;
+    text-shadow: 1px 3px 2px rgb(85, 85, 85);
+}
+#deuxièmeTrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: cornsilk;
+}
+/* ....................PRESENTATION...................... */
+#présentation{
+    background-color: #fffae1;
+    padding: 10px 0px 100px 0px;
+}
+#texteIntro{
+    padding: 0px 20%;
+}
+/* .........................FOOTER........................ */
+footer{
+    background-color: aliceblue;
+    color: blanchedalmond;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: #ffefe1;
+}
+button:hover{
+    background-color: #e55039;
+    color: #fffae1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#copyrightEtIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+    color: #000;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: #141102;
+}
+#icons{
+    width: 50%;
+    text-align: right;
+}
+#icons a{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.5em;
+    color: #c5a0b2;
+    cursor: pointer;
+    transition: 0.2 ease-in-out;
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.15;
+}
